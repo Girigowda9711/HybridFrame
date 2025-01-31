@@ -1,0 +1,46 @@
+2025-01-30 15:12:43.951 [main] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 15:12:45.934 [main] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 15:18:06.888 [main] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 15:18:08.389 [main] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 15:33:51.177 [main] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 15:33:52.881 [main] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:21:07.275 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:21:10.774 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:21:29.645 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:21:32.451 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:21:34.947 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:21:38.357 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:26:21.417 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:26:22.290 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:26:24.956 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:26:26.621 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:26:31.755 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:26:33.487 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:27:39.317 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:27:44.503 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:27:47.422 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:27:47.674 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 16:27:52.724 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 16:27:53.892 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:04:17.081 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:04:20.582 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:04:31.690 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:04:33.755 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:04:59.605 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:05:15.210 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:06:48.773 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:06:51.226 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:06:53.738 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:06:57.706 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:06:59.737 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:07:01.739 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:10:57.479 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:11:00.089 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:11:00.813 [TestNG-tests-1] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:11:05.052 [TestNG-tests-3] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:11:06.807 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:11:08.572 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
+2025-01-30 21:20:40.725 [TestNG-tests-3] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:20:42.896 [TestNG-tests-1] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:20:51.861 [TestNG-tests-2] INFO  com.TestBase.BaseClass - Creating homepage object
+2025-01-30 21:20:53.294 [TestNG-tests-2] INFO  com.TestBase.BaseClass - click on check box
