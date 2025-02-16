@@ -37,6 +37,10 @@ public class DashboardPage {
 			logoutLink.click();
 		}
 		
+		public void clickPIM() {
+			PimLink.click();
+		}
+		
 		
 		
 		

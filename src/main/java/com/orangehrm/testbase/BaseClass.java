@@ -9,11 +9,13 @@ import org.testng.annotations.BeforeMethod;
 
 import com.orangehrm.pages.DashboardPage;
 import com.orangehrm.pages.LoginPage;
+import com.orangehrm.utils.CommonUtils;
 import com.orangehrm.utils.ConfigReader;
 
 public class BaseClass {
 	
 	protected WebDriver driver;
+	
 	
 	@BeforeMethod
 	public void setUp() {
