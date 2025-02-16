@@ -1,7 +1,8 @@
 package com.orangehrm.utils;
 
 import java.time.Duration;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,6 +13,7 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 
 public class DriverFactory {
 	private static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
+	private static final Logger logger = LogManager.getLogger(DriverFactory.class);
 
 	public static WebDriver getDriver() {
         return driverThreadLocal.get();
@@ -20,6 +22,7 @@ public class DriverFactory {
 	public static void initializeDriver(String browser) {
 		
 		WebDriver driver=null;
+		logger.info("Initializing WebDriver for browser: " + browser);
 		
 		switch (browser) {
 		case "chrome":
@@ -45,6 +48,7 @@ public class DriverFactory {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driverThreadLocal.set(driver);
+        logger.info(browser + " WebDriver initialized successfully.");
 		
 		
 		
