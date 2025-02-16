@@ -11,7 +11,9 @@ import com.orangehrm.utils.DriverFactory;
 public class BaseClass {
 
 	 private static final Logger logger = LogManager.getLogger(BaseClass.class);
+	
 
+	 
 	@BeforeMethod
 	public void setUp() {
 		logger.info("Starting test setup...");
@@ -20,6 +22,7 @@ public class BaseClass {
 		DriverFactory.initializeDriver(browser);
 		DriverFactory.getDriver().get(url);
 		logger.info("Navigated to URL: " + url);
+		
 
 	}
 
