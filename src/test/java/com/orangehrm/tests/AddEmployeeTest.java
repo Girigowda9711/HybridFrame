@@ -13,13 +13,13 @@ import com.orangehrm.utils.ConfigReader;
 public class AddEmployeeTest extends BaseClass{
 	@Test
 	public void verifyEmployeeAdded() {
-		LoginPage loginpage = new LoginPage(driver);
+		LoginPage loginpage = new LoginPage();
 		loginpage.enterusername(ConfigReader.getProperty("username"));
 		loginpage.enterpassword(ConfigReader.getProperty("password"));
 		loginpage.clickonLoginBtn();
-		DashboardPage dashboardpage = new DashboardPage(driver);
+		DashboardPage dashboardpage = new DashboardPage();
 		dashboardpage.clickPIM();
-		PimPage pimpage=new PimPage(driver);
+		PimPage pimpage=new PimPage();
 		pimpage.clickonAddemployee();
 		CommonUtils u=new CommonUtils();
 		pimpage.enterEmployeefirstname(u.getRandomString());

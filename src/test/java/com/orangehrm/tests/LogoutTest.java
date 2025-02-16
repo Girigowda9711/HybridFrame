@@ -12,11 +12,11 @@ public class LogoutTest extends BaseClass {
 
 	@Test
 	public void verfiyuserlogout() {
-		LoginPage loginpage = new LoginPage(driver);
+		LoginPage loginpage = new LoginPage();
 		loginpage.enterusername(ConfigReader.getProperty("username"));
 		loginpage.enterpassword(ConfigReader.getProperty("password"));
 		loginpage.clickonLoginBtn();
-		DashboardPage dashboardpage = new DashboardPage(driver);
+		DashboardPage dashboardpage = new DashboardPage();
 		Assert.assertTrue(dashboardpage.isdashboardDisplayed(), "dashboard page is displayed");
 		dashboardpage.clicklogoutDropdown();
 		dashboardpage.clickLogout();

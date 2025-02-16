@@ -5,11 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.orangehrm.utils.DriverFactory;
+
 public class LoginPage {
 	
 	 WebDriver driver;
-	public LoginPage(WebDriver driver) {
-		this.driver=driver;
+	public LoginPage() {
+		this.driver=DriverFactory.getDriver();
 		PageFactory.initElements(driver,this);
 	}
 	

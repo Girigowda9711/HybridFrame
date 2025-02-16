@@ -5,11 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.orangehrm.utils.DriverFactory;
+
 public class PimPage {
 	
 	WebDriver driver;
-	public PimPage(WebDriver driver) {
-		this.driver=driver;
+	public PimPage() {
+		this.driver=DriverFactory.getDriver();
 		PageFactory.initElements(driver,this);
 	}
 	
